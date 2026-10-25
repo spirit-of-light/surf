@@ -1991,6 +1991,8 @@ clickexternplayer(Client *c, const Arg *a, WebKitHitTestResult *h)
 int
 main(int argc, char *argv[])
 {
+   setenv("WEBKIT_DISABLE_DMABUF_RENDERER", "1", 0);
+
 	Arg arg;
 	Client *c;
 
