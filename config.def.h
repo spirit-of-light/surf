@@ -28,7 +28,7 @@ static Parameter defconfig[ParameterLast] = {
 	[FileURLsCrossAccess] =       { { .i = 0 },     },
 	[FontSize]            =       { { .i = 12 },    },
 	[Geolocation]         =       { { .i = 0 },     },
-	[HideBackground]      =       { { .i = 0 },     },
+	[HideBackground]      =       { { .i = 1 },     },
 	[Inspector]           =       { { .i = 0 },     },
 	[JavaScript]          =       { { .i = 1 },     },
 	[KioskMode]           =       { { .i = 0 },     },

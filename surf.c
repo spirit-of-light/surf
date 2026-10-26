@@ -1439,6 +1439,7 @@ createwindow(Client *c)
 	g_signal_connect(G_OBJECT(w), "window-state-event",
 	                 G_CALLBACK(winevent), c);
 
+	gtk_widget_modify_bg(GTK_WINDOW(w), GTK_STATE_NORMAL, &(GdkColor){0});
 	return w;
 }
 
