@@ -194,4 +194,11 @@ static Button buttons[] = {
 	{ OnMedia,      MODKEY,         1,      clickexternplayer, { 0 },       1 },
 };
 
+/* Put here your aliases */
+static Alias aliases[] = {
+    /* Alias        URI */
+    { "ddg",       "https://duckduckgo.com" },
+    { "wikipedia", "https://www.wikipedia.org" }
+};
+
 #define HOMEPAGE "https://duckduckgo.com/"
